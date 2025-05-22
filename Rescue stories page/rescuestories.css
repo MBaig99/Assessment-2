@@ -1,0 +1,126 @@
+
+
+ /* Rescue stories page CSS */
+ 
+ 
+   body {
+	   
+	   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	   background-color: #fffafa;
+	   color: #333;
+	   margin: 0;
+	   padding: 0;
+	   line-height: 1.6;
+   }
+   
+   
+   /* Header */
+   
+   
+   header {
+	   background-color: #fff7f7;
+	   padding: 20px;
+	   border-bottom: 2px solid #f0cccc;
+	   display: flex;
+	   justify-content: space-between;
+	   align-items: center;
+	   flex-wrap: wrap;
+   }
+   
+   
+   .logo h1 {
+	   color: #b35c5c;
+	   margin: 0;
+	   font-size: 1.8em;
+   }
+   
+   nav ul {
+	   list-style: none;
+	   padding: 0;
+	   margin: 0;
+	   display: flex;
+	   gap: 15px;
+   }
+   
+   
+   nav ul li a {
+	   text-decoration: none;
+	   color: #444;
+	   font-weight: 500;
+	   padding: 6px 12px;
+	   border-radius: 5px;
+	   transition: background-color 0.3s, color 0.3s;
+   }
+   
+   
+   nav ul li a:hover {
+	   background-color: #ffecec;
+	   color: #d87e7e;
+   }
+   
+   
+   /* Rescue Stories Section */
+   
+   .rescue-stories {
+	   padding: 40px 20px;
+	   text-align: center;
+   }
+   
+   .rescue-stories h2 {
+	   color: #b35c5c;
+	   font-size: 2em;
+	   margin-bottom: 30px;
+   }
+   
+   .story-card {
+	   background-color: #fff;
+	   border: 1px solid #f0cccc;
+	   border-radius: 10px;
+	   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+	   margin: 20px auto;
+	   max-width: 600px;
+	   padding: 20px;
+	   text-align: left;
+   }
+   
+   
+   .story-card img {
+	   width: 100%;
+	   border-radius: 10px;
+	   margin-bottom: 15px;
+   }
+   
+   .story-card h3 {
+	   color: #b35c5c;
+	   margin-bottom: 10px;
+   }
+   
+   .story-card p {
+	   color: #555;
+   }
+   
+   
+   
+   /* Footer Section */
+   
+   footer {
+	   background-color: #fff7f7;
+	   text-align: center;
+	   padding: 20px;
+	   border-top: 2px solid #f0cccc;
+	   margin-top: 40px;
+	   font-weight: none;
+   }
+   
+   footer a {
+	   color: #b35c5c;
+	   margin: 0 10px;
+	   text-decoration: none;
+	   font-weight: bold;
+   }
+   
+   footer a:hover {
+	   text-decoration: underline;
+   }
+   
+   
