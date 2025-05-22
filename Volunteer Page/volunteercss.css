@@ -1,0 +1,152 @@
+/* Volunteer Page Styles */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffafa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #fff7f7;
+  padding: 20px;
+  border-bottom: 2px solid #f0cccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo h1 {
+  color: #b35c5c;
+  margin: 0;
+  font-size: 1.8em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #ffecec;
+  color: #d87e7e;
+}
+
+/* Intro Section */
+.volunteer-intro {
+  text-align: center;
+  padding: 50px 20px 30px;
+  background-color: #fff0f0;
+}
+
+.volunteer-intro h2 {
+  color: #b35c5c;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.volunteer-intro p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1em;
+}
+
+/* Roles Section */
+.roles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.role-card {
+  background-color: #fff;
+  border: 1px solid #f0cccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.role-card h3 {
+  color: #b35c5c;
+  margin-bottom: 10px;
+}
+
+.role-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Sign Up Prompt */
+.signup-prompt {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff7f7;
+}
+
+.signup-prompt h2 {
+  font-size: 2em;
+  color: #b35c5c;
+  margin-bottom: 15px;
+}
+
+.signup-prompt p {
+  font-size: 1.1em;
+}
+
+.volunteer-button {
+  display: inline-block;
+  color: #fff;
+  background-color: #b35c5c;
+  padding: 10px 20px;
+  margin-left: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.volunteer-button:hover {
+  background-color: #984b4b;
+}
+
+/* Footer */
+footer {
+  background-color: #fff7f7;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #f0cccc;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #b35c5c;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+	
