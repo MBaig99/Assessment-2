@@ -1,0 +1,144 @@
+
+  /* Contact Us Page Styling */
+  
+  
+  body {
+	  font-family: 'Segoe UI', Tahoma, Geneva, 	Verdana, sans-serif;
+	  background-color: #fffdfd;
+	  color: #333;
+	  margin: 0;
+	  padding: 0;
+	  line-height: 1.6;
+  }
+  
+  /* Links Styling */
+  
+  a {
+	  text-decoration: none;
+	  transition: 0.3s;
+	  color: #b35c5c;
+  }
+  
+  
+  a:hover {
+	  color: #d87e7e;
+  }
+  
+  /* Header Styling */
+  
+  header {
+	  background-color: #fff7f7;
+	  padding: 20px;
+	  border-bottom: 2px solid #f0cccc;
+	  text-align: center;
+  }
+  
+  .logo h1 {
+	  margin: 0;
+	  color: #b35c5c;
+  }
+  
+  nav ul {
+	  list-style: none;
+	  display: flex;
+	  justify-content: center;
+	  gap: 20px;
+	  padding: 0px;
+	  margin: 10px 0 0;
+	  flex-wrap: wrap;
+  }
+  
+  nav ul li {
+	  display: inline;
+  }
+  
+  nav ul li a {
+	  padding: 8px 12px;
+	  font-weight: 500;
+	  border-radius: 5px;
+  }
+  
+  
+  
+  
+  /* Contact Section */
+  
+
+  .contact-section {
+	  text-align: center;
+	  padding: 50px 20px;
+	  background-color: #fff1f1;
+  }
+  
+  .contact-section h2 {
+	  font-size: 2.5em;
+	  color: #b35c5c;
+	  margin-bottom: 10px;
+  }
+  
+  
+  .contact-section p {
+	  font-size: 1.1em;
+	  color:#555;
+	  margin-bottom: 30px;
+  }
+  
+  .contact-form {
+	  max-width: 500px;
+	  margin: 0 auto;
+	  display: flex;
+	  flex-direction: column;
+	  gap: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+	  width: 100%;
+	  padding: 12px;
+	  border: 1px solid #f0cccc;
+	  border-radius: 8px;
+	  font-size: 1em;
+	  resize: vertical;
+  }
+  
+  
+  .contact-form button {
+	  padding: 12px;
+	  background-color: #b35c5c;
+	  color: white;
+	  border: none;
+	  border-radius: 8px;
+	  font-size: 1.1em;
+	  cursor: pointer;
+	  transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+	  background-color: #d87e7e;
+  }
+  
+  
+  .contact-form button:focus {
+  outline: 3px solid #f0cccc;
+  outline-offset: 2px;
+}
+  
+  
+  /* Footer Styling */
+  
+  footer {
+	  background-color: #fff7f7;
+	  padding: 20px;
+	  text-align: center;
+	  border-top: 2px solid #f0cccc;
+	  margin-top: 50px;
+  }
+  
+  .social-media a {
+	  margin: 0 10px;
+	  font-weight: 500;
+  }
+  
+  
+	  
+	  
